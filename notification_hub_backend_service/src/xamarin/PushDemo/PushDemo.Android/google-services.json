@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580867234556",
+    "project_id": "biosazurenotificationhubtest",
+    "storage_bucket": "biosazurenotificationhubtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580867234556:android:a5fd1da70f6c41f3b41579",
+        "android_client_info": {
+          "package_name": "com.bios.NotificationHubTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580867234556-u86sqi531uqp28amjm79f26igdqcotmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_A5tfNtzExbd0MLPVAVolYan6VYdKNn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580867234556-u86sqi531uqp28amjm79f26igdqcotmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
