@@ -5,6 +5,7 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Firebase.Iid;
+using Firebase.Messaging;
 using PushDemo.Droid.Services;
 using PushDemo.Services;
 
@@ -37,9 +38,7 @@ namespace PushDemo.Droid
 
             if (DeviceInstallationService.NotificationsSupported)
             {
-                FirebaseInstanceId.GetInstance(Firebase.FirebaseApp.Instance)
-                    .GetInstanceId()
-                    .AddOnSuccessListener(this);
+                FirebaseMessaging.Instance.GetToken().AddOnSuccessListener(this);
             }
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
